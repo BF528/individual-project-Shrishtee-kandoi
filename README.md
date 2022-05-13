@@ -53,7 +53,7 @@ Output: gene_exp.diff
 
 #### FPKMhistogram.R
 
-`Input: genes.FPKM_tracing
+Input: genes.FPKM_tracing
 
 Dependencies: tidyverse package
 
@@ -64,7 +64,7 @@ Alternatively to run on command line:
   module load R/4.0.2
 
   Rscript FPKMhistogram.R
-Output: A histogram for FPKM values of all genes`
+Output: A histogram for FPKM values of all genes
 
 
 
