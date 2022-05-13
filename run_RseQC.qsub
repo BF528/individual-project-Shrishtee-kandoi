@@ -1,0 +1,16 @@
+#!/bin/bash -l
+#$ -P bf528
+#$ -cwd
+#$ -j y
+#$ -pe mpi_16_tasks_per_node 16
+
+## load all modules
+module unload anaconda3
+module load python3
+module load rseqc
+module load samtools
+module load R
+
+geneBody_coverage.py -i P0_1_tophat/accepted_hits.bam -r /project/bf528/project_2/reference/annot/mm9.bed -o Rsgenebody
+inner_distance.py -i P0_1_tophat/accepted_hits.bam -r /project/bf528/project_2/reference/annot/mm9.bed -o Rsdistance
+bam_stat.py -i P0_1_tophat/accepted_hits.bam
