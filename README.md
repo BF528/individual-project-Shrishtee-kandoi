@@ -9,7 +9,7 @@ In this project, I aim to attempt to replicate the O'Meara et al. results. I cho
 
 ## Repository contents
 
-The programmer files contain:
+### The programmer files contain:
 
 #### run_tophat.qsub
 
@@ -53,7 +53,7 @@ Output: gene_exp.diff
 
 #### FPKMhistogram.R
 
-Input: genes.FPKM_tracing
+`Input: genes.FPKM_tracing
 
 Dependencies: tidyverse package
 
@@ -64,11 +64,13 @@ Alternatively to run on command line:
   module load R/4.0.2
 
   Rscript FPKMhistogram.R
-Output: A histogram for FPKM values of all genes
+Output: A histogram for FPKM values of all genes`
 
 
 
-The analyst folder contains the script:
+### The analyst folder contains the script:
+
+Analyst1.R
 
 
 
