@@ -17,7 +17,7 @@ Input: P0_1_1.fastq, P0_1_2.fastq, mm9 reference genome
 
 Dependencies: python2, Bowtie2, topHat, samtools
 
-Execution: qsub run_tophat(1).qsub
+Execution: qsub run_tophat.qsub
 
 Output: accepted_hits.bam file
 
