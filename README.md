@@ -1,4 +1,4 @@
-## individual-project-Shrishtee-kandoi
+## Individual-project-Shrishtee-kandoi
 
 ### Transcriptional Profiling of mammalian cardiac regeneration with mRNA-Seq
 
