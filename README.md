@@ -51,7 +51,7 @@ Execution: qsub run_cuffdiff.qsub
 
 Output: gene_exp.diff
 
-#### FPKMhistogram.R
+#### fpkm.R
 
 Input: genes.FPKM_tracing
 
@@ -63,7 +63,7 @@ Alternatively to run on command line:
 
   module load R/4.0.2
 
-  Rscript FPKMhistogram.R
+  Rscript fpkm.R
 Output: A histogram for FPKM values of all genes
 
 
@@ -72,6 +72,7 @@ Output: A histogram for FPKM values of all genes
 
 Analyst1.R
 
+R code used to filter & process tophat and cufflinks output data for DAVID
 
 
 
