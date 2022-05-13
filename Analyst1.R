@@ -14,7 +14,7 @@ head(gene_exp, 10)
 log2fold_hist <- function(exp_data) {
   p <- exp_data %>% 
     ggplot(aes(x=`log2(fold_change)`)) +
-    geom_histogram(color='grey40',fill='lightsalmon1', bins = 20) +
+    geom_histogram(color='grey40',fill='lightblue', bins = 20) +
     theme_minimal() +
     labs(title='Counts of Log2-Fold Change obtained from DE analysis 
          \n(vP0vs.vAd)\n',
@@ -83,7 +83,7 @@ print(str_glue('Number of genes detected at p < 0.01 & down-regulated: {nrow(p01
 log2fold_hist_sig <- function(exp_data) {
   p <- exp_data %>% 
     ggplot(aes(x=`log2(fold_change)`)) +
-    geom_histogram(color='grey40',fill='lightsalmon1', bins = 20) +
+    geom_histogram(color='grey40',fill='lightblue', bins = 20) +
     theme_minimal() +
     labs(x = 'Log2 Fold Change', y = 'Count')
   
