@@ -9,6 +9,8 @@ In this project, I aim to attempt to replicate the O'Meara et al. results. I cho
 
 ## Repository contents
 
+The programmer files contain:
+
 #### run_tophat.qsub
 
 Input: P0_1_1.fastq, P0_1_2.fastq, mm9 reference genome
